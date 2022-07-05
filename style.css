@@ -51,3 +51,14 @@
     border: 2px solid rgb(197, 74, 30);
     background-color: rgb(233, 213, 206);
 }
+
+.footer{
+    background-color: black;
+    color: white;
+    height: 200px;
+    text-align: center;
+}
+
+.footer-title{
+    padding-top: 40px;
+}
