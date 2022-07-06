@@ -100,7 +100,7 @@
 
 /* Donation plan section */
 .donation-plan{
-    height: 620px;
+    height: 650px;
     margin-top: 25px;
 }
 
@@ -146,7 +146,7 @@
 .row-one{
     display: flex;
     margin: 5%;
-    height: 450px;
+    height: 360px;
 }
 
 .part-one{
@@ -157,7 +157,7 @@
     background-image: url("Images/donation9.jpg");
    background-repeat: no-repeat;
    overflow: hidden;
-   height: 400px;
+   height: 360px;
    width: 50%;
 }
 
@@ -194,7 +194,8 @@
 
 /* update section */
 .update{
-    height: 520px;
+    margin-top: 190px;
+    height: 530px;
 }
 
 .update-text{
