@@ -30,6 +30,9 @@
 
 
 /* section-two */
+.donation-section{
+    height: 500px;
+}
 .text{
     text-align: center;
     padding: 50px 400px 30px;
@@ -56,6 +59,11 @@
 
 
 /* Donation plan section */
+.donation-plan{
+    height: 560px;
+}
+
+
 .boxes{
     display: flex;
     justify-content: space-evenly;
@@ -92,12 +100,12 @@
 
 /* Donation plan section close */
 
-/* <!-- two column --> */
 
+/* <!-- two column --> */
 .row-one{
     display: flex;
     margin: 5%;
-    height: 400px;
+    height: 450px;
 }
 
 .part-one{
@@ -146,8 +154,9 @@
 .footer{
     background-color: black;
     color: white;
-    height: 200px;
+    height: 250px;
     text-align: center;
+    margin-top: 30px;
 }
 
 .footer-title{
