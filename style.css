@@ -15,6 +15,10 @@
     margin-top: 0px;
 }
 
+.bold{
+    font-weight: 700;
+}
+
 .text-content{
     letter-spacing: 1px;
     padding: 0px 300px 30px;
@@ -32,7 +36,7 @@
 
 /* <!-- Five box section --> */
 .grey{
-    color: grey;
+    color: rgb(103, 101, 101);
 }
 .font{
     font-size: 40px;
