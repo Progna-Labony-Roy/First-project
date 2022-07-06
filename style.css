@@ -4,7 +4,7 @@
     height: 600px;
 }
 
-.white, .header-text, .link-button{
+.white, .heading-text, .link-button{
     text-align: center;
     color: white;
 }
@@ -14,7 +14,7 @@
     padding: 90px 400px 0px;
 }
 
-.header-text{
+.text-content{
     letter-spacing: 1px;
     padding: 0px 300px 30px;
 }
@@ -30,8 +30,18 @@
 
 
 /* section-two */
+.grey{
+    color: grey;
+}
+.font{
+    font-size: 40px;
+}
 .donation-section{
     height: 500px;
+}
+
+.text-spacing{
+    letter-spacing: 1px;
 }
 .text{
     text-align: center;
@@ -60,7 +70,7 @@
 
 /* Donation plan section */
 .donation-plan{
-    height: 560px;
+    height: 570px;
 }
 
 
@@ -121,7 +131,6 @@
 }
 
 .title{
-    font-size: 45px;
     padding: 0px 10px;
 }
 
@@ -150,6 +159,10 @@
    margin: 0px 40px 0px 0px;
 }
 /* <!-- two column close--> */
+
+/* update section */
+/* update section close */
+
 
 .footer{
     background-color: black;
