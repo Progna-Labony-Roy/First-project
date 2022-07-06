@@ -92,6 +92,57 @@
 
 /* Donation plan section close */
 
+/* <!-- two column --> */
+
+.row-one{
+    display: flex;
+    margin: 5%;
+    height: 400px;
+}
+
+.part-one{
+    width: 50%;
+}
+
+.image-one{
+    background-image: url("Images/donation9.jpg");
+   background-repeat: no-repeat;
+   overflow: hidden;
+   height: 400px;
+   width: 50%;
+}
+
+.title{
+    font-size: 45px;
+    padding: 0px 10px;
+}
+
+.content{
+    margin: 0px 0px 20px 10px;
+    padding: 0px 10px 20px;
+}
+
+.link-button-one{  
+    margin: 18px;
+    text-decoration: none;
+    background-image: linear-gradient(#E74C3C,#E74C3C);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* ---------------------- */
+
+.image-two{
+   background-image: url("Images/donation0.jpg");
+   background-repeat: no-repeat;
+   overflow: hidden;
+   height: 400px;
+   width: 50%;
+   margin: 0px 40px 0px 0px;
+}
+/* <!-- two column close--> */
+
 .footer{
     background-color: black;
     color: white;
@@ -101,4 +152,8 @@
 
 .footer-title{
     padding-top: 40px;
+}
+
+.footer-title{
+    color: #FF5959;
 }
