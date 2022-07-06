@@ -52,6 +52,46 @@
     background-color: rgb(233, 213, 206);
 }
 
+/* --------section two close-------- */
+
+
+/* Donation plan section */
+.boxes{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 15% 60px;
+    
+}
+.box-box{
+    background-color: rgb(248, 242, 242);
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+}
+
+.box-text{
+    margin-left: 15px;
+    margin-right: 10px;
+}
+
+.image{
+    padding: 15px;
+}
+
+.box-one{
+    background-color: #EDF5F6;
+}
+
+.box-two{
+    background-color: #FFEEEE;
+}
+
+.box-three{
+    background-color: #FFF4D6;
+}
+
+/* Donation plan section close */
+
 .footer{
     background-color: black;
     color: white;
