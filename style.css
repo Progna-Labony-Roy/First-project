@@ -17,6 +17,7 @@
 
 .bold{
     font-weight: 700;
+    font-size: 18px;
 }
 
 .text-content{
@@ -43,7 +44,7 @@
 }
 .donation-section{
     margin-top: 55px;
-    height: 600px;
+    height: 580px;
 }
 
 .text-spacing{
@@ -85,7 +86,7 @@
     margin-bottom: 35px;
 }
 
-input {
+.number-input{
     width: 50%;
     padding: 12px 20px;
     margin: 8px 25%;
@@ -192,37 +193,78 @@ input {
 
 
 /* update section */
+.update{
+    height: 520px;
+}
 
 .update-text{
     text-align: center;
     padding: 0px 400px 30px;
 }
 
-.mail-box{
-    height:20px ;
-    justify-content: center;
-    border-radius: 5px;
-    display: flex;
-}
-
-.submit-button{
-    background-image: linear-gradient(#E74C3C,#E74C3C);
-    padding: 10px 20px;
-}
+.mail-section{
+    background-color: #FFF4D6;
+    width: 650px;
+    height: 180px;
+    background-size: cover;
+    margin: 2% 27%;
+  }
+  
+  .mail-box{
+    padding: 11% 22%;
+  }
+  
+  .email-input{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+  }
+  
+  .email-input[type=email]{
+    background: rgb(221, 219, 219);
+    width: 250px;
+    height: 35px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 5px 0 0 5px;
+  }
+  
+  input[type="submit"]{
+    position: relative;
+    border-radius: 0 5px 5px 0;
+    width: 100px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: rgb(223, 18, 18);
+    cursor: pointer;
+    left: -5px;
+    color: white;
+  }
+  
+  input[type="submit"]:hover{
+    background: yellow;
+    color: black;
+  }
 /* update section close */
 
 
 .footer{
     background-color: black;
-    color: white;
-    height: 250px;
+    height: 220px;
     text-align: center;
 }
 
 .footer-title{
-    padding-top: 40px;
+    color: #FF5959;   
+    padding-top: 60px;
+    font-family: 'Caveat', cursive;
 }
 
-.footer-title{
-    color: #FF5959;
+.footer-text{
+    color: white;
+    letter-spacing: 1px;
 }
